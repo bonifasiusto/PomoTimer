@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PomoTimerApp: App {
+    // MARK: Mengggunakan background fetching intializing disini
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
+            
+            
         }
     }
 }
